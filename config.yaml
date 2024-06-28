@@ -378,8 +378,8 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%H:%M:%S}"
-      label_alt: "{%d/%m/%Y %H:%M:%S}"
+      label_alt: "{%H:%M:%S}"
+      label: "{%d/%m/%Y %H:%M:%S}"
       timezones: ["Asia/Ho_Chi_Minh"]
       callbacks:
         on_middle: "exec explorer.exe shell:Appsfolder\\Microsoft.WindowsAlarms_8wekyb3d8bbwe!App"
